@@ -1,5 +1,5 @@
 :root{
-    --color1: green;
+    --color1: #00609d;
     --color2: white;
     --color3: rgb(48, 38, 38);
     --color4: black;
@@ -41,19 +41,19 @@
     height: 40px;
     display: inline-block;
     border-radius: 50%;
-    background-image: url(../images/logo/logo.png);
+    background-image: url(../images/logo/fox-sports-news02.png);
     background-size: cover;
 }
 .header{
     background-color: black;
     color: white;
     border-bottom: 5px solid var(--color1);
+    padding: 5px;
 }
 .header img{
     width: 200px;
-    height: 150px;
+    height: 100px;
     display: block;
-    padding-top: 15px;
    
 }
 .header a:hover{
@@ -70,10 +70,10 @@
     color: var(--color2);
     display: block;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .footer{
-    background-color: var(--color2);
+    background-color: #3d536f4a;
     color: black;
     border-top: 5px solid var(--color1);
     width: 100%;
@@ -85,6 +85,7 @@
 }
 .footer ul{
     list-style-type: none;
+    
 }
 .border{
     background-color: var(--color1);
@@ -168,7 +169,7 @@
     box-shadow: 0 0 5px var(--color4);
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 12px;
     padding: 5px;
 }
 .product .col1{
@@ -187,6 +188,7 @@
     display: block;
     font-size: 15px;
     color: var(--color4);
+    font-family: 'Khmer CN Preykonkla';
 }
 .product p{
     font-size: 14px;
@@ -195,6 +197,10 @@
 }
 .product .title{
     margin-top: 10px;
+}
+.product .title-detail{
+    margin-top: 10px;
+    font-size: 18px;
 }
 .product .col2{
     width: calc(100% - 905px);
@@ -233,6 +239,7 @@
 .contact-box{
     background: #fff;
     display: flex;
+    
 }
 .contact-left{
     flex-basis: 60%;
@@ -248,7 +255,7 @@
     margin-bottom: 10px;
 }
 .container p{
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .input-row{
     display: flex;
@@ -286,7 +293,7 @@ button{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,181,0.3);
+    box-shadow: 0px 5px 15px 0px rgb(0, 96, 157);
 }
 .contact-right h3{
     
@@ -301,4 +308,30 @@ tr td{
 }
 .contact-left h3{
    color: var(--color1);
+}
+.topx-box{
+    margin-top: 60px;
+    background: var(--color1);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.product .blog-detail{
+    margin-top: 10px;
+}
+.socials a{
+    border: 1px solid rgb(22, 90, 56);
+    width: 44px;
+    height: 36px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all.3s;
 }
